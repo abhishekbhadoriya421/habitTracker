@@ -3,7 +3,7 @@ import {createSlice} from '@reduxjs/toolkit'
 const initialState = {
     habits: [
         {
-            habit:"Studying",
+            habit:"Exercise",
             time:new Date().toLocaleString(),
             day1:"Done",
             day2:"NotDone",
@@ -14,7 +14,7 @@ const initialState = {
             day7:""
         },
         {
-            habit:"Playing",
+            habit:"Running",
             time:new Date().toLocaleString(),
             day1:"Done",
             day2:"Done",
