@@ -1,0 +1,40 @@
+.navContainer{
+    width: 100%;
+    height: 55px;
+    box-shadow: 0px 0px 4px 0px black;
+}
+.navbar{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 201, 102);
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    position: fixed;
+    z-index: 3;
+}
+
+.Name{
+    width: 40%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Links p a{
+    text-decoration: none;
+    color: white;
+    font-size:1.1rem ;
+    transition: all 0.2s ease-in-out;
+}
+
+.Links p a:hover{
+    color: gray;
+    text-decoration: underline;
+}

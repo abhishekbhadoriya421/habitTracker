@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Habit Tracker Application
+> This habit tracker application help older and other to make there habits and track them for Example A person can add its Exercise Habit and then track it. which will improve its health also he can add that he has to take medicean so that he can track that. did he take medicean or not
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Add Habit
+> To add habit you just need to click on Add Habit Button and type you habit it will automatically added
+- Demo
+![add](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/8ddf4c01-c27a-4c61-986c-b315baf172f2)
 
-## Available Scripts
+## Delete Habit
+> To Delete the habit you have to click the dustbin icon It will be deleted
+- Demo
+![delete](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/ce32c19c-8b21-49c9-867e-e439c38e9aa5)
 
-In the project directory, you can run:
+## Update Week view
+> Week view option let you see the that how many days you have completed to check this just click on weekview at the top
+- Demo
+![update](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/b70a2e4f-888e-4c6b-901d-c9ebde43cb52)
 
-### `npm start`
+## Folder Structure
+- src Folder
+>the Entire code is in the src Folder if you have to make some changes go to src folder 
+- Component
+- redux
+> there are two folders in src Folder component and redux, the component folder contains all the design and some logic part which is needed to do task like adding habit deleting habit but redux folder contains entire data or logic to delete habit, add habit and update habit
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Used Tools 
+- html
+- css
+- javaScript
+- React
+- React-Router-Dom
+- Redux
+- Redux toolkit
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>thank you so much for your time I hope you like this

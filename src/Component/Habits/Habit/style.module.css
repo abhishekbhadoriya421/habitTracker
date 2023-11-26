@@ -1,0 +1,43 @@
+.habitItem{
+    width: 800px;
+    height: 100px;
+    box-shadow: 0px 0px 4px 0px black;
+    margin: 20px auto;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.textContent{
+    width: 70%;
+}
+
+.habitContent{
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.dateAndTrack{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+/* image delete */
+.deleteIcon{
+    width: 30px;
+}
+
+.deleteIcon img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.track{
+    color: green;
+}

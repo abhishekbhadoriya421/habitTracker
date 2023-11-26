@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HabitsComponent from "./Component/Habits/HabitsComponent";
+import NavbarComponent from "./Component/Navbar/NavbarComponent";
+import WeekViewComponent from "./Component/WeekView/WeekViewComponent";
+import { Provider } from "react-redux";
+import { store } from "./redux/Store/store";
+import About from "./Component/Habits/about/about";
 function App() {
+  let router = createBrowserRouter([
+    {
+      path: "/",
+      element: <NavbarComponent />,
+      children: [
+        { path: "/", element: <HabitsComponent /> },
+        { path: "weekview", element: <WeekViewComponent /> },
+        {path: 'About',element:<About/>}
+      ],
+    },
+  ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <RouterProvider router={router} />
+      </div>
+    </Provider>
   );
 }
 

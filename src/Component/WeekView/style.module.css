@@ -1,0 +1,105 @@
+.weekViewContainer{
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.yearContent{
+    width: 100%;
+    text-align: center;
+    border-bottom:1px dotted gray ;
+}
+
+.Days{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.habitDetails{
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px 0px black;
+    padding: 10px 15px;
+    background-color: white;
+    margin: 10px 0px;
+}
+.header{
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habitStatus{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.habitStatus p{
+    width: 115px;
+    height: 80px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22a17a;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.habitStatus p span{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    z-index: 2;
+}
+
+.Form{
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(68 15 203 / 78%);
+    border-radius: 10px;
+}
+.Select{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(68 15 203 / 78%);
+    cursor: pointer;
+}

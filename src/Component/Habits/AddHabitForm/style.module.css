@@ -1,0 +1,72 @@
+
+.addHabit{
+    display: flex;
+    justify-content: center;
+}
+
+.addNewHabit{
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    background-color: rgb(147, 147, 255);
+    border-radius: 5px;
+    color: #6eef8e;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.addNewHabit:hover{
+    background-color:rgb(129, 129, 255);
+}
+
+.addHabitForm{
+    width: 400px;
+    height: 200px;
+    background-color: #46ccbdba;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 45px 0px;
+    position: relative;
+}
+
+.addHabitForm input{
+    display: block;
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    background: transparent;
+    border: 0px;
+    border-bottom: 3px solid white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.addHabitForm button{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 3px solid #171799;
+    display: block;
+    color: #171799;
+    cursor: pointer;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.addHabitForm button:hover{
+    background-color: #171799;
+    color: white;
+}
+
+.close{
+    position: absolute;
+    z-index: 2;
+    font-size: 1.6rem;
+    color: red;
+    left: 92%;
+    top: -2%;
+    cursor: pointer;
+}
