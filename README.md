@@ -4,17 +4,17 @@
 ## Add Habit
 > To add habit you just need to click on Add Habit Button and type you habit it will automatically added
 - Demo
-![add](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/8ddf4c01-c27a-4c61-986c-b315baf172f2)
+![add](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/97ef30ab-9acd-4295-8de4-c9349aec6969)
 
 ## Delete Habit
 > To Delete the habit you have to click the dustbin icon It will be deleted
 - Demo
-![delete](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/ce32c19c-8b21-49c9-867e-e439c38e9aa5)
+![delete](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/66f1158b-5bd7-43bd-815b-a1f72e20ff76)
 
 ## Update Week view
 > Week view option let you see the that how many days you have completed to check this just click on weekview at the top
 - Demo
-![update](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/b70a2e4f-888e-4c6b-901d-c9ebde43cb52)
+![update](https://github.com/abhishekbhadoriya421/habitTracker/assets/127028405/5d9530b3-0c0d-4e17-bf8d-03f799db7d04)
 
 ## Folder Structure
 - src Folder
